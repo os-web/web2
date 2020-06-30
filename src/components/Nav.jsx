@@ -1,6 +1,8 @@
 import React from 'react';
+import classes from './Nav.module.css';
+
 function Nav() {
-    return <nav className="nav">
+    return <nav className={classes.nav}>
     <div>
       <a>Profile</a>
     </div>
