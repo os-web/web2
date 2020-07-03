@@ -3,7 +3,7 @@ import MyPosts from './Posts/MyPosts';
 import classes from './Content.module.css';
 
 function Content() {
-    return <div className={classes.content}>
+    return (
     <div>
       <img src="https://img-cdn.tinkoffjournal.ru/french-riviera_main.nn8qslkdedg5.png"></img>
     </div>
@@ -11,7 +11,6 @@ function Content() {
       ava+discription 
     </div>
    <MyPosts />
-  </div>
-  ;
+  )
 }
 export default Content;
